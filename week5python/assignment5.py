@@ -40,3 +40,5 @@ class Plane:
     def move(self):
         print("The plane is flying")
 
+for vehicle in [Car(), Plane()]:
+    vehicle.move()
